@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decision Wheel</h1>
+        <p>Enter your options and spin the wheel to make a decision!</p>
+
+        <div class="options">
+            <h2>Enter Your Options</h2>
+            <input type="text" id="option-input" placeholder="Type an option">
+            <button id="add-button">Add</button>
+            <ul id="options-list"></ul>
+        </div>
+
+        <div class="wheel-container">
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <div class="pointer"></div>
+        </div>
+
+        <button id="spin-button">Spin</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
